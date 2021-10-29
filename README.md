@@ -18,8 +18,8 @@ prompt$: ./alphanumeric “Operating Systems 351 begins at 1:00pm or 4:00pm”
   
 The main() in this program should read the phrase from the terminal. This phrase can be read into a global variable. This phrase or its parts can be directly accessed from the main() and from the threads. The main()  has to create two concurrent threads running functions (alpha and numeric). The threads should print only the words of the phrase as follows:   
   
-The alpha thread function should print all the words that start with an alphabet.  
-The numeric thread function should print all the words starting with a number.  
+**The alpha thread function should print all the words that start with an alphabet.  
+The numeric thread function should print all the words starting with a number.**  
   
 Note that the main thread (running main()) should not print anything itself, the output should be printed by the threads that it creates. The main() can decide which thread to begin executing first, or it can leave it to the threads to sort this out. The order of words in the phrase should not be changed in the print. Your program should work for any phrase of any reasonable length, not just the one given in the example. The output of your program should look similar to the following  
 $: ./alphanumeric “Operating Systems 351 begins at 1:00pm or 4:00pm”  
