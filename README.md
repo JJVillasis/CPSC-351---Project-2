@@ -1,5 +1,5 @@
 # CPSC 351 - Project 2
-##PART A: Computing Fibonacci Numbers With Threads [ 50 points ]  
+PART A: Computing Fibonacci Numbers With Threads [ 50 points ]  
   
 The Fibonacci sequence is the series of numbers 0, 1, 1, 2, 3, 5, 8,....  Formally, it can be expressed as:  
 fib0 = 0  
