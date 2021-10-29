@@ -39,6 +39,9 @@ void* generateFibonacci(void* arg)
 {
   int number = stoi((char*) arg);
 
+  fibonacciSequence.push_back(0);
+  fibonacciSequence.push_back(1);
+
   for(int x = 2; x < number; ++x)
   {
     int num = fibonacciSequence[fibonacciSequence.size()-2] + fibonacciSequence[fibonacciSequence.size()-1];
@@ -50,9 +53,6 @@ void* generateFibonacci(void* arg)
 void* displayFibonacci(void* param)
 {
   pthread_t child;
-
-  fibonacciSequence.push_back(0);
-  fibonacciSequence.push_back(1);
 
   pthread_create(&child, NULL, generateFibonacci, param);
   pthread_join(child, NULL);
