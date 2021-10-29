@@ -1,4 +1,7 @@
-# CPSC 351 - Project 2
+# CPSC 351 - Project 2  
+  
+This project can be done individually or in a group of maximum 3 people. For a group of 2 or 3, each of the group members needs to submit. If one group member fails to submit, that person gets 0. Indicate in an additional .txt file, the names and email ids of members in the group. If working individually, indicate in the .txt, your name and email id.  
+  
 ## PART A: Computing Fibonacci Numbers With Threads [ 50 points ]  
   
 The Fibonacci sequence is the series of numbers 0, 1, 1, 2, 3, 5, 8,....  Formally, it can be expressed as:  
