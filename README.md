@@ -37,4 +37,4 @@ In this part you are *not allowed* to use ANY synchronization primitives includi
   
 You DO NOT NEED to use sched_yield() to relinquish control of the CPU, but you can use it if you like. You may also investigate some of the other pthread functions available to you for this project, and use them if you like. Although you do not actually need them.  
   
-The name of this program must be alphanumeric.cpp  
+**The name of this program must be alphanumeric.cpp**
